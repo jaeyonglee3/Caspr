@@ -1,0 +1,843 @@
+{
+    "time_unit": "year",
+    "timestamps": [
+        {
+            "t": 1,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 1.5,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 7.5,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 80,
+                    "category": "health"
+                },
+                {
+                    "id": "4",
+                    "label": "Pollution Level",
+                    "value": 50,
+                    "category": "environment"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 2.0,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 11.5,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 6.0,
+                    "category": "social"
+                },
+                {
+                    "id": "8",
+                    "label": "Income Inequality",
+                    "value": 0.85,
+                    "category": "economic"
+                },
+                {
+                    "id": "9",
+                    "label": "Infrastructure Investment",
+                    "value": 15.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 3.0,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.7
+                },
+                {
+                    "source": "1",
+                    "target": "5",
+                    "relationship": "causal",
+                    "strength": 0.8
+                },
+                {
+                    "source": "6",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.6
+                },
+                {
+                    "source": "4",
+                    "target": "3",
+                    "relationship": "causal",
+                    "strength": 0.5
+                },
+                {
+                    "source": "9",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.9
+                }
+            ]
+        },
+        {
+            "t": 2,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 2.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 7.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 81,
+                    "category": "health"
+                },
+                {
+                    "id": "4",
+                    "label": "Pollution Level",
+                    "value": 48,
+                    "category": "environment"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 2.5,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 12.0,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 5.8,
+                    "category": "social"
+                },
+                {
+                    "id": "8",
+                    "label": "Income Inequality",
+                    "value": 0.83,
+                    "category": "economic"
+                },
+                {
+                    "id": "9",
+                    "label": "Infrastructure Investment",
+                    "value": 16.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 3.2,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.72
+                },
+                {
+                    "source": "1",
+                    "target": "5",
+                    "relationship": "causal",
+                    "strength": 0.82
+                },
+                {
+                    "source": "6",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.63
+                },
+                {
+                    "source": "4",
+                    "target": "3",
+                    "relationship": "causal",
+                    "strength": 0.55
+                },
+                {
+                    "source": "9",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.92
+                }
+            ]
+        },
+        {
+            "t": 3,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 2.3,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 6.8,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 82,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 2.8,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 12.5,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 5.7,
+                    "category": "social"
+                },
+                {
+                    "id": "8",
+                    "label": "Income Inequality",
+                    "value": 0.82,
+                    "category": "economic"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 3.3,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 5.5,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.75
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.85
+                },
+                {
+                    "source": "6",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.65
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.6
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.7
+                }
+            ]
+        },
+        {
+            "t": 4,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 2.7,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 6.4,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 83,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 3.2,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 12.7,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 5.5,
+                    "category": "social"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 3.5,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 6.0,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.78
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.87
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.65
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.72
+                }
+            ]
+        },
+        {
+            "t": 5,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 3.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 6.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 85,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 3.6,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 13.0,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 5.2,
+                    "category": "social"
+                },
+                {
+                    "id": "8",
+                    "label": "Income Inequality",
+                    "value": 0.8,
+                    "category": "economic"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 3.7,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 6.5,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.8
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.9
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.68
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.75
+                }
+            ]
+        },
+        {
+            "t": 6,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 3.2,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 5.7,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 86,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 3.8,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 13.5,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 5.0,
+                    "category": "social"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 3.8,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 7.0,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.82
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.88
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.7
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.78
+                }
+            ]
+        },
+        {
+            "t": 7,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 3.5,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 5.5,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 87,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 4.0,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 13.8,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 4.8,
+                    "category": "social"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 4.0,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 7.5,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.85
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.9
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.72
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.8
+                }
+            ]
+        },
+        {
+            "t": 8,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 3.8,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 5.3,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 88,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 4.2,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 14.0,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 4.5,
+                    "category": "social"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 4.2,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 8.0,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.88
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.92
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.75
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.82
+                }
+            ]
+        },
+        {
+            "t": 9,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 4.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 5.0,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 89,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 4.5,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 14.2,
+                    "category": "social"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 4.3,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 8.5,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.9
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.94
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.77
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.85
+                }
+            ]
+        },
+        {
+            "t": 10,
+            "nodes": [
+                {
+                    "id": "1",
+                    "label": "GDP",
+                    "value": 4.2,
+                    "category": "economic"
+                },
+                {
+                    "id": "2",
+                    "label": "Unemployment Rate",
+                    "value": 4.8,
+                    "category": "economic"
+                },
+                {
+                    "id": "3",
+                    "label": "Healthcare Quality",
+                    "value": 90,
+                    "category": "health"
+                },
+                {
+                    "id": "5",
+                    "label": "Technological Innovation",
+                    "value": 5.0,
+                    "category": "technology"
+                },
+                {
+                    "id": "6",
+                    "label": "Education Level",
+                    "value": 14.5,
+                    "category": "social"
+                },
+                {
+                    "id": "7",
+                    "label": "Crime Rate",
+                    "value": 4.2,
+                    "category": "social"
+                },
+                {
+                    "id": "10",
+                    "label": "Climate Change Impact",
+                    "value": 4.5,
+                    "category": "environment"
+                },
+                {
+                    "id": "11",
+                    "label": "Renewable Energy Use",
+                    "value": 9.0,
+                    "category": "environment"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "relationship": "causal",
+                    "strength": 0.92
+                },
+                {
+                    "source": "5",
+                    "target": "1",
+                    "relationship": "causal",
+                    "strength": 0.95
+                },
+                {
+                    "source": "5",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.78
+                },
+                {
+                    "source": "11",
+                    "target": "10",
+                    "relationship": "causal",
+                    "strength": 0.88
+                }
+            ]
+        }
+    ]
+}

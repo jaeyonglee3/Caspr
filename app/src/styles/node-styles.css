@@ -1,0 +1,18 @@
+.node-tooltip {
+	color: white;
+	background: rgba(0, 0, 0, 0.75);
+	padding: 8px;
+	border-radius: 5px;
+	display: inline-block;
+	white-space: nowrap;
+	user-select: none;
+}
+
+.edge-tooltip {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 12px;
+	pointer-events: none;
+}

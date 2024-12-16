@@ -1,0 +1,937 @@
+{
+	"nodes": [
+		{
+			"id": "1",
+			"label": "GDP",
+			"value": 2.5,
+			"category": "economic"
+		},
+		{
+			"id": "2",
+			"label": "Unemployment Rate",
+			"value": 7.2,
+			"category": "economic"
+		},
+		{
+			"id": "3",
+			"label": "Healthcare Quality",
+			"value": 85,
+			"category": "health"
+		},
+		{
+			"id": "4",
+			"label": "Pollution Level",
+			"value": 60,
+			"category": "environmental"
+		},
+		{
+			"id": "5",
+			"label": "Technological Innovation",
+			"value": 3.5,
+			"category": "technology"
+		},
+		{
+			"id": "6",
+			"label": "Education Level",
+			"value": 12.5,
+			"category": "social"
+		},
+		{
+			"id": "7",
+			"label": "Crime Rate",
+			"value": 5.6,
+			"category": "social"
+		},
+		{
+			"id": "8",
+			"label": "Income Inequality",
+			"value": 0.8,
+			"category": "economic"
+		},
+		{
+			"id": "9",
+			"label": "Infrastructure Investment",
+			"value": 18,
+			"category": "economic"
+		},
+		{
+			"id": "10",
+			"label": "Climate Change Impact",
+			"value": 4.1,
+			"category": "environmental"
+		},
+		{
+			"id": "11",
+			"label": "Government Spending",
+			"value": 30,
+			"category": "economic"
+		},
+		{
+			"id": "12",
+			"label": "Interest Rates",
+			"value": 2.0,
+			"category": "economic"
+		},
+		{
+			"id": "13",
+			"label": "Housing Prices",
+			"value": 6.5,
+			"category": "economic"
+		},
+		{
+			"id": "14",
+			"label": "Employment Growth",
+			"value": 1.2,
+			"category": "economic"
+		},
+		{
+			"id": "15",
+			"label": "Renewable Energy Use",
+			"value": 25,
+			"category": "environmental"
+		},
+		{
+			"id": "16",
+			"label": "Public Safety",
+			"value": 70,
+			"category": "social"
+		},
+		{
+			"id": "17",
+			"label": "Life Expectancy",
+			"value": 80,
+			"category": "health"
+		},
+		{
+			"id": "18",
+			"label": "Carbon Emissions",
+			"value": 3.2,
+			"category": "environmental"
+		},
+		{
+			"id": "19",
+			"label": "Mental Health",
+			"value": 75,
+			"category": "health"
+		},
+		{
+			"id": "20",
+			"label": "Urbanization",
+			"value": 55,
+			"category": "social"
+		},
+		{
+			"id": "21",
+			"label": "Global Warming",
+			"value": 3.8,
+			"category": "environmental"
+		},
+		{
+			"id": "22",
+			"label": "Food Security",
+			"value": 82,
+			"category": "social"
+		},
+		{
+			"id": "23",
+			"label": "Public Health Expenditure",
+			"value": 10.5,
+			"category": "economic"
+		},
+		{
+			"id": "24",
+			"label": "Crime Rate Reduction",
+			"value": 3.9,
+			"category": "social"
+		},
+		{
+			"id": "25",
+			"label": "Energy Prices",
+			"value": 5.4,
+			"category": "economic"
+		},
+		{
+			"id": "26",
+			"label": "Income Tax Rate",
+			"value": 2.5,
+			"category": "economic"
+		},
+		{
+			"id": "27",
+			"label": "Pandemics",
+			"value": 1.1,
+			"category": "health"
+		},
+		{
+			"id": "28",
+			"label": "Deforestation",
+			"value": 45,
+			"category": "environmental"
+		},
+		{
+			"id": "29",
+			"label": "Water Scarcity",
+			"value": 25,
+			"category": "environmental"
+		},
+		{
+			"id": "30",
+			"label": "Financial Market Stability",
+			"value": 90,
+			"category": "economic"
+		},
+		{
+			"id": "31",
+			"label": "Agricultural Productivity",
+			"value": 60,
+			"category": "economic"
+		},
+		{
+			"id": "32",
+			"label": "Pollution Control",
+			"value": 20,
+			"category": "environmental"
+		},
+		{
+			"id": "33",
+			"label": "Wildlife Conservation",
+			"value": 50,
+			"category": "environmental"
+		},
+		{
+			"id": "34",
+			"label": "Nutritional Health",
+			"value": 78,
+			"category": "health"
+		},
+		{
+			"id": "35",
+			"label": "Foreign Investment",
+			"value": 15,
+			"category": "economic"
+		},
+		{
+			"id": "36",
+			"label": "Interest Rate Policy",
+			"value": 2.8,
+			"category": "economic"
+		},
+		{
+			"id": "37",
+			"label": "Public Transportation",
+			"value": 40,
+			"category": "social"
+		},
+		{
+			"id": "38",
+			"label": "Global Trade",
+			"value": 22,
+			"category": "economic"
+		},
+		{
+			"id": "39",
+			"label": "Income Growth",
+			"value": 3.5,
+			"category": "economic"
+		},
+		{
+			"id": "40",
+			"label": "Tax Policy",
+			"value": 12,
+			"category": "economic"
+		},
+		{
+			"id": "41",
+			"label": "Migration Rate",
+			"value": 2.1,
+			"category": "social"
+		},
+		{
+			"id": "42",
+			"label": "Military Spending",
+			"value": 4.8,
+			"category": "governance"
+		},
+		{
+			"id": "43",
+			"label": "Corruption",
+			"value": 4.1,
+			"category": "governance"
+		},
+		{
+			"id": "44",
+			"label": "Pandemic Response",
+			"value": 10,
+			"category": "health"
+		},
+		{
+			"id": "45",
+			"label": "Social Mobility",
+			"value": 2.9,
+			"category": "social"
+		},
+		{
+			"id": "46",
+			"label": "Public Awareness Campaigns",
+			"value": 6.7,
+			"category": "social"
+		},
+		{
+			"id": "47",
+			"label": "Ocean Acidification",
+			"value": 3.1,
+			"category": "environmental"
+		},
+		{
+			"id": "48",
+			"label": "Research and Development",
+			"value": 5.5,
+			"category": "technology"
+		},
+		{
+			"id": "49",
+			"label": "Trade Tariffs",
+			"value": 1.8,
+			"category": "economic"
+		},
+		{
+			"id": "50",
+			"label": "Species Extinction",
+			"value": 1.6,
+			"category": "environmental"
+		},
+		{
+			"id": "51",
+			"label": "Water Pollution",
+			"value": 5.2,
+			"category": "environmental"
+		},
+		{
+			"id": "52",
+			"label": "Agricultural Exports",
+			"value": 8.7,
+			"category": "economic"
+		},
+		{
+			"id": "53",
+			"label": "Urban Expansion",
+			"value": 7.3,
+			"category": "social"
+		},
+		{
+			"id": "54",
+			"label": "Cybersecurity",
+			"value": 5.0,
+			"category": "technology"
+		},
+		{
+			"id": "55",
+			"label": "Food Prices",
+			"value": 6.3,
+			"category": "economic"
+		},
+		{
+			"id": "56",
+			"label": "Transportation Efficiency",
+			"value": 8.2,
+			"category": "technology"
+		},
+		{
+			"id": "57",
+			"label": "Forest Fires",
+			"value": 4.5,
+			"category": "environmental"
+		},
+		{
+			"id": "58",
+			"label": "Climate Change Legislation",
+			"value": 6.8,
+			"category": "governance"
+		},
+		{
+			"id": "59",
+			"label": "Public Education System",
+			"value": 72,
+			"category": "social"
+		},
+		{
+			"id": "60",
+			"label": "Droughts",
+			"value": 5.4,
+			"category": "environmental"
+		},
+		{
+			"id": "61",
+			"label": "Financial Inclusion",
+			"value": 4.9,
+			"category": "economic"
+		},
+		{
+			"id": "62",
+			"label": "Vaccination Rates",
+			"value": 9.5,
+			"category": "health"
+		},
+		{
+			"id": "63",
+			"label": "Job Automation",
+			"value": 3.7,
+			"category": "technology"
+		},
+		{
+			"id": "64",
+			"label": "Waste Management",
+			"value": 2.8,
+			"category": "environmental"
+		},
+		{
+			"id": "65",
+			"label": "Gender Equality",
+			"value": 4.6,
+			"category": "social"
+		},
+		{
+			"id": "66",
+			"label": "Social Unrest",
+			"value": 4.0,
+			"category": "social"
+		},
+		{
+			"id": "67",
+			"label": "Technological Adoption",
+			"value": 4.2,
+			"category": "technology"
+		},
+		{
+			"id": "68",
+			"label": "Poverty Rate",
+			"value": 11.5,
+			"category": "economic"
+		},
+		{
+			"id": "69",
+			"label": "Energy Consumption",
+			"value": 10.2,
+			"category": "environmental"
+		},
+		{
+			"id": "70",
+			"label": "Mental Health Awareness",
+			"value": 5.7,
+			"category": "health"
+		},
+		{
+			"id": "71",
+			"label": "Housing Affordability",
+			"value": 6.1,
+			"category": "economic"
+		},
+		{
+			"id": "72",
+			"label": "Access to Clean Water",
+			"value": 4.5,
+			"category": "environmental"
+		},
+		{
+			"id": "73",
+			"label": "Internet Penetration",
+			"value": 7.0,
+			"category": "technology"
+		},
+		{
+			"id": "74",
+			"label": "Political Stability",
+			"value": 7.3,
+			"category": "governance"
+		},
+		{
+			"id": "75",
+			"label": "Healthcare Access",
+			"value": 8.2,
+			"category": "health"
+		},
+		{
+			"id": "76",
+			"label": "Foreign Aid",
+			"value": 4.9,
+			"category": "governance"
+		},
+		{
+			"id": "77",
+			"label": "Nuclear Energy Use",
+			"value": 5.3,
+			"category": "technology"
+		},
+		{
+			"id": "78",
+			"label": "Job Creation",
+			"value": 2.6,
+			"category": "economic"
+		},
+		{
+			"id": "79",
+			"label": "Global Supply Chains",
+			"value": 9.8,
+			"category": "economic"
+		},
+		{
+			"id": "80",
+			"label": "Tax Evasion",
+			"value": 3.4,
+			"category": "governance"
+		},
+		{
+			"id": "81",
+			"label": "Workplace Safety",
+			"value": 6.9,
+			"category": "social"
+		},
+		{
+			"id": "82",
+			"label": "Climate Migration",
+			"value": 5.0,
+			"category": "social"
+		},
+		{
+			"id": "83",
+			"label": "Government Transparency",
+			"value": 7.1,
+			"category": "governance"
+		},
+		{
+			"id": "84",
+			"label": "Waste Recycling",
+			"value": 6.6,
+			"category": "environmental"
+		},
+		{
+			"id": "85",
+			"label": "Artificial Intelligence Adoption",
+			"value": 4.8,
+			"category": "technology"
+		},
+		{
+			"id": "86",
+			"label": "Water Pollution Control",
+			"value": 6.0,
+			"category": "environmental"
+		},
+		{
+			"id": "87",
+			"label": "Childhood Obesity",
+			"value": 3.1,
+			"category": "health"
+		},
+		{
+			"id": "88",
+			"label": "Renewable Energy Investment",
+			"value": 7.5,
+			"category": "environmental"
+		},
+		{
+			"id": "89",
+			"label": "Clean Air Regulations",
+			"value": 6.9,
+			"category": "governance"
+		},
+		{
+			"id": "90",
+			"label": "Ocean Biodiversity",
+			"value": 4.7,
+			"category": "environmental"
+		},
+		{
+			"id": "91",
+			"label": "Corporate Social Responsibility",
+			"value": 5.6,
+			"category": "social"
+		},
+		{
+			"id": "92",
+			"label": "Vaccine Development",
+			"value": 8.8,
+			"category": "health"
+		},
+		{
+			"id": "93",
+			"label": "Mental Health Support Systems",
+			"value": 7.2,
+			"category": "health"
+		},
+		{
+			"id": "94",
+			"label": "Human Rights Violations",
+			"value": 2.2,
+			"category": "social"
+		},
+		{
+			"id": "95",
+			"label": "Social Innovation",
+			"value": 6.1,
+			"category": "technology"
+		},
+		{
+			"id": "96",
+			"label": "Public Policy Reform",
+			"value": 5.8,
+			"category": "governance"
+		},
+		{
+			"id": "97",
+			"label": "Environmental Activism",
+			"value": 6.7,
+			"category": "environmental"
+		},
+		{
+			"id": "98",
+			"label": "Species Conservation",
+			"value": 4.4,
+			"category": "environmental"
+		},
+		{
+			"id": "99",
+			"label": "Public Trust in Institutions",
+			"value": 5.3,
+			"category": "social"
+		},
+		{
+			"id": "100",
+			"label": "Electric Vehicle Adoption",
+			"value": 7.0,
+			"category": "technology"
+		}
+	],
+	"edges": [
+		{
+			"source": "1",
+			"target": "2",
+			"relationship": "causal",
+			"strength": 0.8
+		},
+		{
+			"source": "3",
+			"target": "7",
+			"relationship": "correlated",
+			"strength": 0.6
+		},
+		{
+			"source": "5",
+			"target": "1",
+			"relationship": "causal",
+			"strength": 0.9
+		},
+		{
+			"source": "9",
+			"target": "1",
+			"relationship": "causal",
+			"strength": 0.85
+		},
+		{
+			"source": "4",
+			"target": "10",
+			"relationship": "causal",
+			"strength": 0.95
+		},
+		{
+			"source": "5",
+			"target": "6",
+			"relationship": "inhibitory",
+			"strength": 0.7
+		},
+		{
+			"source": "8",
+			"target": "2",
+			"relationship": "causal",
+			"strength": 0.6
+		},
+		{
+			"source": "7",
+			"target": "24",
+			"relationship": "causal",
+			"strength": 0.75
+		},
+		{
+			"source": "10",
+			"target": "18",
+			"relationship": "causal",
+			"strength": 0.88
+		},
+		{
+			"source": "11",
+			"target": "12",
+			"relationship": "correlated",
+			"strength": 0.7
+		},
+		{
+			"source": "13",
+			"target": "14",
+			"relationship": "causal",
+			"strength": 0.65
+		},
+		{
+			"source": "15",
+			"target": "21",
+			"relationship": "causal",
+			"strength": 0.92
+		},
+		{
+			"source": "22",
+			"target": "3",
+			"relationship": "correlated",
+			"strength": 0.77
+		},
+		{
+			"source": "14",
+			"target": "8",
+			"relationship": "inhibitory",
+			"strength": 0.58
+		},
+		{
+			"source": "25",
+			"target": "9",
+			"relationship": "causal",
+			"strength": 0.68
+		},
+		{
+			"source": "26",
+			"target": "25",
+			"relationship": "causal",
+			"strength": 0.7
+		},
+		{
+			"source": "27",
+			"target": "3",
+			"relationship": "causal",
+			"strength": 0.5
+		},
+		{
+			"source": "16",
+			"target": "7",
+			"relationship": "causal",
+			"strength": 0.85
+		},
+		{
+			"source": "4",
+			"target": "32",
+			"relationship": "correlated",
+			"strength": 0.7
+		},
+		{
+			"source": "17",
+			"target": "19",
+			"relationship": "causal",
+			"strength": 0.9
+		},
+		{
+			"source": "30",
+			"target": "35",
+			"relationship": "causal",
+			"strength": 0.8
+		},
+		{
+			"source": "12",
+			"target": "39",
+			"relationship": "causal",
+			"strength": 0.7
+		},
+		{
+			"source": "11",
+			"target": "31",
+			"relationship": "correlated",
+			"strength": 0.55
+		},
+		{
+			"source": "36",
+			"target": "12",
+			"relationship": "inhibitory",
+			"strength": 0.65
+		},
+		{
+			"source": "29",
+			"target": "47",
+			"relationship": "causal",
+			"strength": 0.78
+		},
+		{
+			"source": "50",
+			"target": "98",
+			"relationship": "causal",
+			"strength": 0.9
+		},
+		{
+			"source": "18",
+			"target": "10",
+			"relationship": "causal",
+			"strength": 0.88
+		},
+		{
+			"source": "15",
+			"target": "10",
+			"relationship": "causal",
+			"strength": 0.82
+		},
+		{
+			"source": "19",
+			"target": "62",
+			"relationship": "causal",
+			"strength": 0.7
+		},
+		{
+			"source": "62",
+			"target": "87",
+			"relationship": "causal",
+			"strength": 0.78
+		},
+		{
+			"source": "40",
+			"target": "19",
+			"relationship": "causal",
+			"strength": 0.5
+		},
+		{
+			"source": "95",
+			"target": "85",
+			"relationship": "causal",
+			"strength": 0.7
+		},
+
+		{
+			"source": "54",
+			"target": "63",
+			"relationship": "causal",
+			"strength": 0.7
+		},
+		{
+			"source": "56",
+			"target": "100",
+			"relationship": "causal",
+			"strength": 0.85
+		},
+		{
+			"source": "57",
+			"target": "64",
+			"relationship": "causal",
+			"strength": 0.9
+		},
+		{
+			"source": "60",
+			"target": "72",
+			"relationship": "causal",
+			"strength": 0.8
+		},
+		{
+			"source": "58",
+			"target": "21",
+			"relationship": "causal",
+			"strength": 0.7
+		},
+		{
+			"source": "65",
+			"target": "66",
+			"relationship": "correlated",
+			"strength": 0.6
+		},
+		{
+			"source": "68",
+			"target": "2",
+			"relationship": "inhibitory",
+			"strength": 0.5
+		},
+		{
+			"source": "70",
+			"target": "19",
+			"relationship": "causal",
+			"strength": 0.75
+		},
+		{
+			"source": "72",
+			"target": "86",
+			"relationship": "causal",
+			"strength": 0.82
+		},
+		{
+			"source": "74",
+			"target": "83",
+			"relationship": "causal",
+			"strength": 0.78
+		},
+		{
+			"source": "75",
+			"target": "62",
+			"relationship": "causal",
+			"strength": 0.9
+		},
+		{
+			"source": "77",
+			"target": "69",
+			"relationship": "causal",
+			"strength": 0.85
+		},
+		{
+			"source": "79",
+			"target": "78",
+			"relationship": "causal",
+			"strength": 0.8
+		},
+		{
+			"source": "80",
+			"target": "40",
+			"relationship": "correlated",
+			"strength": 0.7
+		},
+		{
+			"source": "81",
+			"target": "45",
+			"relationship": "causal",
+			"strength": 0.6
+		},
+		{
+			"source": "82",
+			"target": "41",
+			"relationship": "causal",
+			"strength": 0.8
+		},
+		{
+			"source": "83",
+			"target": "99",
+			"relationship": "causal",
+			"strength": 0.65
+		},
+		{
+			"source": "85",
+			"target": "100",
+			"relationship": "causal",
+			"strength": 0.88
+		},
+		{
+			"source": "88",
+			"target": "86",
+			"relationship": "correlated",
+			"strength": 0.92
+		},
+		{
+			"source": "91",
+			"target": "46",
+			"relationship": "causal",
+			"strength": 0.75
+		},
+		{
+			"source": "93",
+			"target": "87",
+			"relationship": "causal",
+			"strength": 0.7
+		},
+		{
+			"source": "95",
+			"target": "63",
+			"relationship": "correlated",
+			"strength": 0.85
+		},
+		{
+			"source": "98",
+			"target": "50",
+			"relationship": "causal",
+			"strength": 0.9
+		}
+	]
+}

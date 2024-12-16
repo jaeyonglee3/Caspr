@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/user-attachments/assets/2887aa3f-b9c9-4bf9-8e0d-c0633570fe0c">
+  <img alt="Logo" src="/images/readme_logo.png">
   <h1>Caspr</h1>
 </div>
 
